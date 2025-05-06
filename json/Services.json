@@ -1,0 +1,27 @@
+[
+  {
+    "icon": "/react.svg",
+    "title": "REACT DEVELOPER",
+    "paragraph": "Building seamless, interactive, and dynamic user interfaces using React.js."
+  },
+  {
+    "icon": "/mern.svg",
+    "title": "MERN STACK DEVELOPER",
+    "paragraph": "Creating end-to-end web applications with MongoDB, Express.js, React.js, and Node.js."
+  },
+  {
+    "icon": "/backends.svg",
+    "title": "BACKEND DEVELOPER",
+    "paragraph": "Specializing in backend logic, APIs, and server-side performance optimization."
+  },
+  {
+    "icon": "/pngegg (7) 1.svg",
+    "title": "UI/UX DESIGNER",
+    "paragraph": "Crafting intuitive and engaging designs that enhance user experiences."
+  },
+  {
+    "icon": "/graphics.svg",
+    "title": "GRAPHIC DESIGNER",
+    "paragraph": "Designing captivating visuals and graphics to communicate ideas effectively and creatively."
+  }
+]

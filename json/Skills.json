@@ -1,0 +1,129 @@
+{
+  "frontend": [
+    {
+      "title": "HTML 5",
+      "image": "html.svg",
+      "layerBlur": "bg-[#D65733]",
+      "shadowColour": "rgba(227, 79, 38, 0.8)"
+    },
+    {
+      "title": "CSS",
+      "image": "css logo.svg",
+      "layerBlur": "bg-[#1572B6]",
+      "shadowColour": "rgba(51, 169, 220, 0.8)"
+    },
+    {
+      "title": "JavaScript",
+      "image": "javascript logo.svg",
+      "layerBlur": "bg-[#F7DF1E]",
+      "shadowColour": "rgba(247, 223, 30, 0.8)"
+    },
+    {
+      "title": "React JS",
+      "image": "reacts.svg",
+      "layerBlur": "bg-[#01D5FB]",
+      "shadowColour": "rgba(1, 213, 251, 0.8)"
+    },
+    {
+      "title": "SCSS",
+      "image": "sass.svg",
+      "layerBlur": "bg-[#F684BC]",
+      "shadowColour": "rgba(246, 132, 188, 0.8)"
+    },
+    {
+      "title": "Redux",
+      "image": "redux.svg",
+      "layerBlur": "bg-[#AF7DFF]",
+      "shadowColour": "rgba(175, 125, 255, 0.8)"
+    },
+    {
+      "title": "Tailwind CSS",
+      "image": "tailwind logo.svg",
+      "layerBlur": "bg-[#0ED7B5]",
+      "shadowColour": "rgba(14, 215, 181, 0.8)"
+    }
+  ],
+  "backend": [
+    {
+      "title": "Node JS",
+      "image": "skill-icons_nodejs-dark.svg",
+      "layerBlur": "bg-[#9EFF42]",
+      "shadowColour": "rgba(158, 255, 66, 0.8)"
+    },
+    {
+      "title": "Express JS",
+      "image": "express.svg",
+      "layerBlur": "bg-[#FFFFFF]",
+      "shadowColour": "rgba(255, 255, 255, 0.8)"
+    },
+    {
+      "title": "MongoDB",
+      "image": "skill-icons_mongodb.svg",
+      "layerBlur": "bg-[#023430]",
+      "shadowColour": "rgba(18, 191, 101, 0.8)"
+    },
+    {
+      "title": "Mongoose",
+      "image": "devicon_mongoose-wordmark.svg",
+      "layerBlur": "bg-[#850000]",
+      "shadowColour": "rgba(198, 15, 15, 0.8)"
+    },
+    {
+      "title": "PostgreSQL",
+      "image": "devicon_postgresql.svg",
+      "layerBlur": "bg-[#317CB8]",
+      "shadowColour": "rgba(49, 124, 184, 0.8)"
+    },
+    {
+      "title": "Git",
+      "image": "skill-icons_git.svg",
+      "layerBlur": "bg-[#F03C2E]",
+      "shadowColour": "rgba(240, 60, 46, 0.8)"
+    },
+    {
+      "title": "GitHub",
+      "image": "github logo.svg",
+      "layerBlur": "bg-[#FFFFFF]",
+      "shadowColour": "rgba(255, 255, 255, 0.8)"
+    }
+  ],
+
+  "design": [
+    {
+      "title": "Figma",
+      "image": "figma logo.svg",
+      "layerBlur": "bg-[#FF7262]",
+      "shadowColour": "rgba(255, 114, 98, 0.8)"
+    },
+    {
+      "title": "Adobe XD",
+      "image": "xd.svg",
+      "layerBlur": "bg-[#FF61F6]",
+      "shadowColour": "rgba(255, 97, 246, 0.8)"
+    },
+    {
+      "title": "Illustrator",
+      "image": "illustrator logo.svg",
+      "layerBlur": "bg-[#330000]",
+      "shadowColour": "rgba(255, 154, 0, 0.8)"
+    },
+    {
+      "title": "Photoshop",
+      "image": "photoshop-original logo.svg",
+      "layerBlur": "bg-[#49021F]",
+      "shadowColour": "rgba(49, 168, 255, 0.8)"
+    },
+    {
+      "title": "InDesign",
+      "image": "adobe-indesign logo.svg",
+      "layerBlur": "bg-[#FF3366]",
+      "shadowColour": "rgba(255, 51, 102, 0.8)"
+    },
+    {
+      "title": "After Effects",
+      "image": "after-effects-1 logo.svg",
+      "layerBlur": "bg-[#49021F]",
+      "shadowColour": "rgba(153, 153, 255, 0.8)"
+    }
+  ]
+}

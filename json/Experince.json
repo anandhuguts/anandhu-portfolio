@@ -1,0 +1,31 @@
+{
+  "react": [
+    "Mastery in modern React, from foundational concepts to advanced development patterns.",
+    "Proficient in Next.js for server-side rendering (SSR), static site generation (SSG), and performance optimization.",
+    "Strong expertise in Context API & React Query for efficient state management and data fetching.",
+    "Expert in Framer Motion for smooth, interactive animations and micro-interactions in React applications.",
+    "Deep understanding of Redux for managing complex application state with best practices.",
+    "Skilled in Tailwind CSS for rapid UI development and responsive design.",
+    "Experienced in advanced React patterns, including higher-order components (HOCs), render props, and custom hooks.",
+    "Passionate about building scalable, high-performance, and maintainable web applications."
+  ],
+  "backend": [
+    "Proficient in Node.js and Express.js for building scalable and efficient backend applications.",
+    "Experienced with PostgreSQL for designing and managing relational databases, including writing optimized SQL queries.",
+    "Skilled in RESTful API development, implementing authentication, middleware, and route handling for secure and modular applications.",
+    "Familiar with authentication methods, including JWT (JSON Web Token) for secure user management.",
+    "Capable of handling CRUD operations and ensuring efficient data management in relational databases.",
+    "Experienced in API integration, connecting backend services with external APIs for dynamic functionality.",
+    "Passionate about writing clean, maintainable, and scalable backend code."
+  ],
+  "expertise": [
+    "Skilled in Figma for designing wireframes, prototypes, and high-fidelity UI mockups.",
+    "Proficient in creating user-centric designs, focusing on usability, accessibility, and aesthetics.",
+    "Experienced in responsive design, ensuring seamless experiences across desktop and mobile devices.",
+    "Strong understanding of typography, color theory, and design principles to create visually appealing interfaces.",
+    "Capable of conducting user research and testing to improve product usability and engagement.",
+    "Familiar with design systems, maintaining consistency across components and layouts.",
+    "Experienced in collaborating with developers, ensuring smooth design-to-code handoff.",
+    "Passionate about designing intuitive, engaging, and visually compelling digital experiences."
+  ]
+}
