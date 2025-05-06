@@ -1,6 +1,6 @@
 import { Element } from "react-scroll";
 import Experiencefeatures from "../sub components/Experiencefeatures";
-import Experiencejson from "../../../json/Experince.json";
+import Experiencejson from "../../json/Experince.json";
 
 function Experience() {
   return (

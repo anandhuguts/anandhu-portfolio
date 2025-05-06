@@ -1,6 +1,6 @@
 import { Element } from "react-scroll";
 import Services from "../sub components/Services";
-import Service from ".././../../json/services.json";
+import Service from "../../json/Services.json";
 
 function Overview() {
   return (
