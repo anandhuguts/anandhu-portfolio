@@ -1,6 +1,6 @@
 import { Element } from "react-scroll";
 import Skillsrectangle from "../sub components/Skillsrectangle";
-import skills from "../../json/Skills.json"
+import skills from "../../json/Skills.json";
 
 function Skills() {
   console.log(skills.frontend);
