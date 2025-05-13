@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function Skillsrectangle({ title, image, shadowColour, layerBlur }) {
+function Skillsrectangle({ title, image, shadowColour, layerBlur, index }) {
   const [isHovered, setIsHovered] = useState(false);
   const transitionDuration = isHovered ? "300ms" : "1600ms";
 

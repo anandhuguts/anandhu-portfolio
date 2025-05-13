@@ -2,8 +2,8 @@ import { Link } from "react-scroll";
 
 function Navigation() {
   return (
-    <div className="flex fixed w-full">
-      <div className="flex  w-full h-[75px] bg-[#0f0f0f] border-b-[0.5px] border-[#1E2635]  z-1000">
+    <div className="flex fixed w-full z-[9999]">
+      <div className="flex  w-full h-[75px] bg-[#0f0f0f] border-b-[0.5px] border-[#1E2635]  ">
         <nav
           className="flex  w-full max-w-[1198px]  justify-between  items-center  text-[#A5A5A5] px-[40px]
 text-[17px] mx-auto max-xl:w-full max-xl:max-w-[877px]  
@@ -65,7 +65,7 @@ text-[17px] mx-auto max-xl:w-full max-xl:max-w-[877px]
               Contact
             </Link>
           </ul>
-          <button className="text-black text-[16px] border bg-white rounded-[6px] w-[122px] h-[40px] font-script font-semibold  max-xl:hidden">
+          <button className="text-black text-[16px] border bg-white rounded-[6px] w-[122px] h-[40px] font-script font-semibold  max-xl:hidden transition-all duration-300 ease-in-out hover:bg-[#00DC82] hover:text-white hover:border-[#00DC82]">
             Email me
           </button>
         </nav>

@@ -1,10 +1,16 @@
 import { Element } from "react-scroll";
+import { motion } from "motion/react";
 
 function Introduction() {
   return (
     <Element name="home">
       <section className=" flex justify-center w-full min-h-[1020px] bg-[rgb(15,15,15)] bg-gradient-to-b from-[#0F0F0F] to-[#0C1328]">
-        <div className="flex   justify-between w-full  max-w-[1330px] mx-auto mt-[310px] px-[100px] gap-[100px]">
+        <motion.div
+          initial={{ y: -100, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.5, ease: "easeOut" }}
+          className="flex   justify-between w-full  max-w-[1330px] mx-auto mt-[310px] px-[100px] gap-[100px]"
+        >
           <div className="whitespace-nowrap">
             <h1 className="font-script font-medium text-white text-[32px] max-xl:text-[27px] max-lg:text-[24px] max-md:text-[19px]">
               Hey It`s me
@@ -62,7 +68,7 @@ function Introduction() {
               className="shrink-0 min-w-[305px] min-h-[305px] max-lg:scale"
             />
           </div>
-        </div>
+        </motion.div>
       </section>
     </Element>
   );

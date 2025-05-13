@@ -1,12 +1,33 @@
 import { Element } from "react-scroll";
 import Skillsrectangle from "../sub components/Skillsrectangle";
 import skills from "../../json/Skills.json";
+import { motion } from "motion/react";
 
 function Skills() {
-  console.log(skills.frontend);
+  const container = {
+    hidden: {},
+    show: {
+      transition: {
+        staggerChildren: 0.2, // or 0.3 for slower
+      },
+    },
+  };
+
+  const item = {
+    hidden: { opacity: 0, y: 30 },
+    show: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 0.6,
+        ease: "easeOut",
+      },
+    },
+  };
+
   return (
     <Element name="skills">
-      <section className=" w-full h-[894px] bg-[#0C1328] text-white">
+      <section className=" w-full h-[894px] bg-[#0C1328] text-white ">
         <div className="text-center">
           <h2 className="font-script font-bold text-white text-[40px] ">
             My Skills
@@ -27,7 +48,7 @@ function Skills() {
 
           <div className="flex gap-[28px] overflow-hidden">
             {[...Array(14)].map((_, index) => (
-              <Skillsrectangle key={index} />
+              <Skillsrectangle key={index} index={index} />
             ))}
           </div>
           {/* <div className="flex gap-[28px] overflow-hidden mt-[26px]">
@@ -46,6 +67,7 @@ function Skills() {
           <div className="flex gap-[28px]">
             <Skillsrectangle />
             <Skillsrectangle />
+
             {skills.frontend.map((skill, index) => {
               return (
                 <Skillsrectangle

@@ -1,13 +1,19 @@
 import { Element } from "react-scroll";
 import Services from "../sub components/Services";
 import Service from "../../json/Services.json";
+import { motion } from "motion/react";
 
 function Overview() {
   return (
     <Element name="about">
       <section className="flex justify-center w-full min-h-[766px] bg-[#0C1328] text-white overflow-hidden">
         <div>
-          <div>
+          <motion.div
+            initial={{ y: -100, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.5, ease: "easeOut" }}
+            viewport={{ once: false, amount: 0.3 }}
+          >
             <h2 className="font-script font-bold text-white text-[47px]">
               Overview
             </h2>
@@ -23,12 +29,13 @@ function Overview() {
               that are not only beautifully designed but also highly <br />{" "}
               optimized for performance and usability.
             </p>
-          </div>
+          </motion.div>
           <div className="flex gap-[20px] mt-[50px]">
             {Service.map((service, index) => {
               return (
                 <Services
                   key={index}
+                  index={index}
                   icon={service.icon}
                   title={service.title}
                   paragraph={service.paragraph}
