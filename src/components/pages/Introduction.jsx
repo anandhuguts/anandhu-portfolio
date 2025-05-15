@@ -1,5 +1,6 @@
 import { Element } from "react-scroll";
 import { motion } from "motion/react";
+import elipse from "../../images/Ellipse 1.png";
 
 function Introduction() {
   return (
@@ -63,7 +64,7 @@ function Introduction() {
           </div>
           <div>
             <img
-              src="/Ellipse 1.png"
+              src={elipse}
               alt=""
               className="shrink-0 min-w-[305px] min-h-[305px] max-lg:scale"
             />
