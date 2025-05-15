@@ -6,7 +6,7 @@ import { motion } from "motion/react";
 function Navigation() {
   const [isOpen, setOpen] = useState(false);
   return (
-    <div className="flex fixed w-full z-[9999]">
+    <div className="flex  w-full z-[9999]">
       <div className="flex  w-full h-[75px] bg-[#0f0f0f] border-b-[0.5px] border-[#1E2635]  ">
         <nav
           className="flex  w-full max-w-[1198px]  justify-between  items-center  text-[#A5A5A5] px-[30px]
