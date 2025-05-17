@@ -21,6 +21,7 @@
     );
   }
 }
+
 * {
   box-sizing: border-box;
 }
@@ -33,4 +34,5 @@ body {
   background-color: #f8fafc; /* Light background */
   color: #1e293b; /* Dark text */
   scroll-behavior: smooth; /* Smooth scrolling */
+  /* Prevent horizontal scroll */
 }

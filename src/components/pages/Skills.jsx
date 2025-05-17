@@ -4,27 +4,6 @@ import skills from "../../json/Skills.json";
 import { motion } from "motion/react";
 
 function Skills() {
-  const container = {
-    hidden: {},
-    show: {
-      transition: {
-        staggerChildren: 0.2, // or 0.3 for slower
-      },
-    },
-  };
-
-  const item = {
-    hidden: { opacity: 0, y: 30 },
-    show: {
-      opacity: 1,
-      y: 0,
-      transition: {
-        duration: 0.6,
-        ease: "easeOut",
-      },
-    },
-  };
-
   return (
     <Element name="skills">
       <section className=" w-full h-[894px] bg-[#0C1328] text-white ">
