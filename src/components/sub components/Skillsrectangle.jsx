@@ -28,7 +28,7 @@ function Skillsrectangle({ title, image, shadowColour, layerBlur, index }) {
       )}
 
       {/* React Logo */}
-      {image && <img src={image} alt="React Logo" className="mb-[30px]" />}
+      {image && <img src={image} alt="React Logo" className="mb-[30px] " />}
 
       {/* Title Below the Image */}
       <h2 className="absolute bottom-[10px] font-script font-semibold text-white text-[14px] z-11  ">

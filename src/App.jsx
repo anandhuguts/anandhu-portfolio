@@ -6,6 +6,7 @@ import Introduction from "./components/pages/Introduction";
 import Overview from "./components/pages/Overview";
 import Projects from "./components/pages/Projects";
 import Skills from "./components/pages/Skills";
+import Introduction2 from "./components/pages/Introduction copy";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <Navigation />
 
       <Main>
-        <Introduction />
+        <Introduction2 />
         <Overview />
         <Skills />
         {/* <Experience /> */}

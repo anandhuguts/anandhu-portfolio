@@ -2,11 +2,12 @@ import { Element } from "react-scroll";
 import Services from "../sub components/Services";
 import Service from "../../json/Services.json";
 import { motion } from "motion/react";
+import Background3D from "../sub components/Background";
 
 function Overview() {
   return (
     <Element name="about">
-      <section className="flex justify-center w-full min-h-[766px] bg-[#0C1328] text-white overflow-hidden">
+      <section className="relative flex justify-center w-full min-h-[766px] bg-[#0C1328] text-white overflow-hidden ">
         <div>
           <motion.div
             initial={{ y: -100, opacity: 0 }}

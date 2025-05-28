@@ -9,16 +9,16 @@ function Navigation() {
       <div className="flex  w-full h-[75px] bg-[#0f0f0f] border-b-[0.5px] border-[#1E2635]  ">
         <nav
           className="flex  w-full max-w-[1198px]  justify-between  items-center  text-[#A5A5A5] px-[30px]
-text-[17px] mx-auto max-xl:w-full max-xl:max-w-[877px]   gap-[20px] max-lg:w-[700px] max-md:w-[600px]
+text-[17px] mx-auto max-xl:w-full max-xl:max-w-[877px]   gap-[20px]  max-md:w-[700px]
 "
         >
-          <h1 className="flex flex-col text-[#00DC82] text-[18px] font-script font-medium max-lg:text-[15px] max-md:text-[13px]">
+          <h1 className="flex flex-col text-[#00DC82] text-[18px] font-script font-medium ">
             Portfolio{" "}
-            <span className=" text-white text-[10px] max-lg:text-[8px] max-md:text-[7px] whitespace-nowrap">
+            <span className=" text-white text-[10px]  whitespace-nowrap">
               Anandhu Prasad
             </span>
           </h1>
-          <ul className="flex w-[590px] justify-between   font-script font-medium max-lg:text-[15px] gap-[10px] max-lg:w-[500px] max-md:w-[350px] max-md:text-[12px] max-md:hidden ">
+          <ul className="flex w-[590px] justify-between   font-script font-medium  gap-[10px] max-lg:w-[500px] max-md:w-[350px]  max-lg:hidden ">
             <Link
               to="home"
               className="cursor-pointer hover:text-white transition-colors duration-300 ease-in-out active:text-white
@@ -68,8 +68,8 @@ text-[17px] mx-auto max-xl:w-full max-xl:max-w-[877px]   gap-[20px] max-lg:w-[70
               Contact
             </Link>
           </ul>
-          <div className="md:hidden relative z-50">
-            <div className="md:hidden">
+          <div className="lg:hidden relative z-50">
+            <div className="lg:hidden">
               <Hamburger size={23} toggled={isOpen} toggle={setOpen} />
             </div>
             {isOpen && (
