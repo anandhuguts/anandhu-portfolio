@@ -5,6 +5,7 @@ import { OrbitControls, Stars } from "@react-three/drei";
 const Background3D = () => {
   return (
     <Canvas
+      style={{ pointerEvents: "none" }}
       className="!absolute !top-0 !left-0 !w-full !h-full z-[1]"
       frameloop="demand"
       gl={{ preserveDrawingBuffer: true }}

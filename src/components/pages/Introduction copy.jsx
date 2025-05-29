@@ -6,13 +6,13 @@ import Background3D from "../sub components/Background";
 function Introduction() {
   return (
     <Element name="home">
-      <section className=" flex items-center justify-center w-full min-h-[1020px] bg-[rgb(15,15,15)] bg-gradient-to-b from-[#0F0F0F] to-[#0C1328] z-[2]">
+      <section className=" flex items-center justify-center w-full min-h-[1020px] bg-[rgb(15,15,15)] bg-gradient-to-b from-[#0F0F0F] to-[#0C1328] z-[2] max-[400px]:!min-h-screen">
         <Background3D />
         <motion.div
           initial={{ y: -100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5, ease: "easeOut" }}
-          className="flex   items-center mx-auto  max-xl:mb-[200px] px-[50px] gap-[30px] max-sm:flex-col-reverse max-sm:mb-[100px] "
+          className="flex   items-center mx-auto  max-xl:mb-[200px] px-[50px] gap-[30px] max-sm:flex-col-reverse max-sm:mb-[100px] max-[400px]:!mb-[0px] "
         >
           <div className="whitespace-nowrap text-center flex flex-col items-center ">
             <h1 className="max-[400px]:!text-[14px]   font-open-sans font-semibold text-white text-[32px] max-xl:text-[28px] max-lg:text-[26px] max-md:text-[24px] max-sm:text-[22px]   ">
