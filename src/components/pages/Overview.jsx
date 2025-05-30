@@ -7,8 +7,8 @@ import Background3D from "../sub components/Background";
 function Overview() {
   return (
     <Element name="about">
-      <section className="relative flex  w-full min-h-[766px] bg-[#0C1328] text-white overflow-hidden ">
-        <div className=" mx-auto px-[50px]">
+      <section className="relative flex  w-full pb-[100px] bg-[#0C1328] text-white overflow-hidden ">
+        <div className=" mx-auto px-[20px]">
           <motion.div
             initial={{ y: -100, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
@@ -18,7 +18,7 @@ function Overview() {
             <h2 className="font-script font-bold text-white text-[47px]">
               Overview
             </h2>
-            <p className=" max-w-[750px] font-script font-normal text-[#D8D8D8] text-[16px] leading-[28px] tracking-[1.2px] mt-[11px]">
+            <p className="max-[400px]:!text-[13.5px] max-w-[750px] font-script font-normal text-[#D8D8D8] text-[16px] leading-[28px]  mt-[11px]">
               As a creative MERN stack developer and web designer, I specialize
               in crafting high- performance, visually stunning digital
               experiences. With a strong passion for building dynamic web

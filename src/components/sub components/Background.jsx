@@ -6,7 +6,7 @@ const Background3D = () => {
   return (
     <Canvas
       style={{ pointerEvents: "none" }}
-      className="!absolute !top-0 !left-0 !w-full !h-screen z-[1]"
+      className="!absolute !top-0 !left-0 !w-full h-[1080px] z-[1]"
       frameloop="demand"
       gl={{ preserveDrawingBuffer: true }}
       onCreated={({ gl }) => {
