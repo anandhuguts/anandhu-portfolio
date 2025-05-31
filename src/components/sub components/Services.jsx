@@ -11,18 +11,20 @@ function Services({ title, icon, paragraph, index }) {
         delay: index * 0.1,
         ease: "easeOut",
       }}
-      className="flex justify-center items-center gradient w-[227px] h-[227px] rounded-[10px] border border-[#1E2635]  "
+      className="flex justify-center items-center gradient max-[400px]:!w-full max-[400px]:!h-[190px]  w-[227px] py-[25px] rounded-[10px] border border-[#1E2635]  "
     >
-      <div className="w-[193px] h-[162px]">
+      <div className="max-[400px]:!flex max-[400px]:!w-full max-[400px]:!gap-[30px] w-[193px] h-[162px] justify-center items-center">
         <div className="w-[36px] h-[33px]">
           <img src={icon} alt="" />
         </div>
-        <h2 className="font-script font-bold text-white text-[14px] mt-[18px]">
-          {title}
-        </h2>
-        <p className="font-script font-normal text-[#D8D8D8] text-[14px] max-w-[200px] mt-[6px]">
-          {paragraph}
-        </p>
+        <div>
+          <h2 className="font-script font-bold text-white text-[14px] mt-[18px]">
+            {title}
+          </h2>
+          <p className="font-script font-normal text-[#D8D8D8] text-[14px] max-w-[200px] mt-[6px]">
+            {paragraph}
+          </p>
+        </div>
       </div>
     </motion.div>
   );

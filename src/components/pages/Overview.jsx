@@ -18,7 +18,10 @@ function Overview() {
             <h2 className="font-script font-bold text-white text-[47px]">
               Overview
             </h2>
-            <p className="max-[400px]:!text-[13.5px] max-w-[750px] font-script font-normal text-[#D8D8D8] text-[16px] leading-[28px]  mt-[11px]">
+            <p
+              className="max-[400px]:!text-[13.5px] max-w-[750px] font-script font-normal text-[#D8D8D8] text-[16px] leading-[28px] 
+             mt-[11px]"
+            >
               As a creative MERN stack developer and web designer, I specialize
               in crafting high- performance, visually stunning digital
               experiences. With a strong passion for building dynamic web
