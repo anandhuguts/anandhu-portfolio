@@ -37,7 +37,7 @@
       "shadowColour": "rgba(175, 125, 255, 0.8)"
     },
     {
-      "title": "Tailwind CSS",
+      "title": "Tailwind",
       "image": "tailwind logo.svg",
       "layerBlur": "bg-[#0ED7B5]",
       "shadowColour": "rgba(14, 215, 181, 0.8)"
