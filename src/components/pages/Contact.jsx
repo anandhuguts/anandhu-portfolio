@@ -3,7 +3,7 @@ import { Element } from "react-scroll";
 function Contact() {
   return (
     <Element name="contact">
-      <section className="w-full h-full bg-[#0C1328] text-white  ">
+      <section className="w-full h-full bg-[#0C1328] text-white px-[20px] ">
         <div className="text-center">
           <h2 className="font-script font-bold text-white text-[40px] ">
             Contact Me
