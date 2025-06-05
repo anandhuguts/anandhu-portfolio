@@ -7,7 +7,7 @@ function Skillsrectangle({ title, image, shadowColour, layerBlur }) {
   return (
     <div
       className="flex flex-col justify-center items-center bg-gradient-to-b from-[#161E31] to-[#0F1629] 
-                 w-[160px] h-[160px] max-[400px]:!w-[100px] max-[400px]:!h-[100px] rounded-[10px] border border-[#1E2635] 
+                 w-[160px] h-[160px] max-sm:!w-[100px] max-sm:!h-[100px] rounded-[10px] border border-[#1E2635] 
                  relative overflow-hidden flex-shrink-0 "
       style={{
         boxShadow:

@@ -36,10 +36,10 @@ function Skills() {
         </div>
         <div className="relative sm:hidden">
           {/* Blurred Borders */}
-          <div className="max-[400px]:!hidden absolute top-0 left-0 w-full h-32 bg-gradient-to-b from-[#0C1328] to-transparent z-40 pointer-events-none"></div>
-          <div className="max-[400px]:!hidden absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-[#0C1328] to-transparent z-40 pointer-events-none"></div>
-          <div className="max-[400px]:!hidden absolute top-0 left-0 w-32 h-full bg-gradient-to-r from-[#0C1328] to-transparent z-40 pointer-events-none"></div>
-          <div className=" max-[400px]:!hidden absolute top-0 right-0 w-32 h-full bg-gradient-to-l from-[#0C1328] to-transparent z-40 pointer-events-none"></div>
+          <div className="max-sm:!hidden absolute top-0 left-0 w-full h-32 bg-gradient-to-b from-[#0C1328] to-transparent z-40 pointer-events-none"></div>
+          <div className="max-sm:!hidden absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-[#0C1328] to-transparent z-40 pointer-events-none"></div>
+          <div className="max-sm:!hidden absolute top-0 left-0 w-32 h-full bg-gradient-to-r from-[#0C1328] to-transparent z-40 pointer-events-none"></div>
+          <div className=" max-sm:!hidden absolute top-0 right-0 w-32 h-full bg-gradient-to-l from-[#0C1328] to-transparent z-40 pointer-events-none"></div>
 
           <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-4 z-10 relative mx-auto overflow-x-auto">
             {allSkills.map((skill, index) => (
