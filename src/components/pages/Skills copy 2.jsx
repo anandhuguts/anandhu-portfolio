@@ -20,7 +20,7 @@ function Skills() {
           My Skills
         </h2>
         <div className="sm:block hidden">
-          <div className="grid gap-[26px] grid-cols-[repeat(auto-fit,_minmax(120px,_1fr))] px-[50px] xl:px-[300px] ">
+          <div className="flex flex-wrap justify-center gap-6.5 px-[50px] xl:px-[300px] ">
             {[...skills.frontend, ...skills.backend, ...skills.design].map(
               (skill, index) => (
                 <Skillsrectangles
@@ -41,7 +41,7 @@ function Skills() {
           <div className="max-sm:!hidden absolute top-0 left-0 w-32 h-full bg-gradient-to-r from-[#0C1328] to-transparent z-40 pointer-events-none"></div>
           <div className=" max-sm:!hidden absolute top-0 right-0 w-32 h-full bg-gradient-to-l from-[#0C1328] to-transparent z-40 pointer-events-none"></div>
 
-          <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-4 z-10 relative mx-auto overflow-x-auto">
+          <div className="grid justify-items-center grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-4 z-10 relative mx-auto ">
             {allSkills.map((skill, index) => (
               <Skillsrectangle
                 key={index}

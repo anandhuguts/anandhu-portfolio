@@ -12,7 +12,7 @@ function Introduction() {
           initial={{ y: -100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5, ease: "easeOut" }}
-          className="flex   items-center mx-auto  max-xl:mb-[200px] px-[50px] gap-[30px] max-sm:flex-col-reverse max-sm:mb-[100px] max-[400px]:!mb-[0px] "
+          className="flex   items-center mx-auto  max-xl:mb-[200px] px-[50px] gap-[30px] max-sm:flex-col-reverse max-sm:mb-[100px] max-[400px]:!mb-[0px] z-2"
         >
           <div className="whitespace-nowrap text-center flex flex-col items-center ">
             <h1 className="max-[400px]:!text-[14px]   font-open-sans font-semibold text-white text-[32px] max-xl:text-[28px] max-lg:text-[26px] max-md:text-[24px] max-sm:text-[22px]   ">
