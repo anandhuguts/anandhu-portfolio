@@ -7,7 +7,7 @@ import Background3D from "../sub components/Background";
 function Overview() {
   return (
     <Element name="about">
-      <section className="relative flex  w-full pb-[100px] bg-[#0C1328] text-white overflow-hidden ">
+      <section className="relative flex  w-full pb-[64px] bg-[#0C1328] text-white overflow-hidden ">
         <div className=" mx-auto px-[20px]">
           <motion.div
             initial={{ y: -100, opacity: 0 }}

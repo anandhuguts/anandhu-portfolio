@@ -34,7 +34,7 @@ function Contact() {
           </div>
 
           {/* Message Box */}
-          <div className="relative mt-[54px]">
+          <div className="relative mt-[40px]">
             <textarea
               name="message"
               placeholder="Message"

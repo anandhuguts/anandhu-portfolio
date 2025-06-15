@@ -18,7 +18,7 @@ function Introduction() {
             <h1 className="max-[400px]:!text-[14px]   font-open-sans font-semibold text-white text-[32px] max-xl:text-[28px] max-lg:text-[26px] max-md:text-[24px] max-sm:text-[22px]   ">
               Welcome to My Portfolio
             </h1>
-            <h2 className="font-script font-medium text-white text-[61px]  leading-tight max-[400px]:!text-[27px] max-xl:text-[52px] max-lg:text-[45px] max-md:text-[38px] max-sm:text-[32px]  ">
+            <h2 className="font-script font-medium text-white text-[61px]  leading-tight max-[400px]:!text-[25px] max-xl:text-[52px] max-lg:text-[45px] max-md:text-[38px] max-sm:text-[30px]  ">
               Hi, Im <span className="text-[#00DC82]">Anandhu Prasad</span>
               <br />
               <span className="w-full flex justify-start ">
@@ -78,10 +78,10 @@ function Introduction() {
               </li>
             </ul>
             <div className="flex gap-[20px] mt-[23px]">
-              <button className="flex items-center gap-[10px] py-[9px] px-[15px] bg-[#00DC82] rounded-[6px] font-bold text-[17px] text-black font-open-sans max-[400px]:!text-[14px] ">
+              <button className="flex items-center gap-[10px] py-[9px] px-[15px] bg-[#00DC82] rounded-[6px] font-bold text-[17px] text-black font-open-sans max-[400px]:!text-[13px] ">
                 Resume <img src="/downloadbtn.svg" alt="" />
               </button>
-              <button className="gap-[10px] py-[9px] px-[15px] bg-white rounded-[6px] font-bold text-[17px] text-black font-open-sans max-[400px]:!text-[14px] ">
+              <button className="gap-[10px] py-[9px] px-[15px] bg-white rounded-[6px] font-bold text-[17px] text-black font-open-sans max-[400px]:!text-[13px] ">
                 Hire Now
               </button>
             </div>
